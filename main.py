@@ -3,10 +3,6 @@ import praw, datetime, random, os, time
 # Create one bot with memeeconbot and then expand from there #
 version = '1.0'
 
-dude_username = 'dude0413'
-dude_password = 'krul*aill6golt1MUNT'
-dude_client_id = 'QgB5EYqXC1UaZQ'
-dude_client_secret = 'XBNJ7ISvCANsOXCNjtCyvA1z_Fs'
 bot = praw.Reddit(user_agent="Meme Economy Bot Trying to Win using Algorithms",
                   client_id=dude_client_id,
                   client_secret=dude_client_secret,
